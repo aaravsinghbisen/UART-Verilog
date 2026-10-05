@@ -41,6 +41,6 @@ The design uses a single 100 MHz system clock and generates timing enables for a
 
 A UART frame is therefore:
 
-
+```text
 Idle | Start | D0 D1 D2 D3 D4 D5 D6 D7 | Stop
   1     0       <---- 8 data bits ---->    1
